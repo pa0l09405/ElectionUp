@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.official.ElectionUp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+         >
+        <activity
+            android:name="com.example.electionup2.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.electionup2.Home"
+            android:label="@string/title_activity_home"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.Risultati"
+            android:label="@string/title_activity_risultati" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.AssegnaVoto"
+            android:label="@string/title_activity_assegna_voto"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.Votanti"
+            android:label="@string/title_activity_votanti"
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.Sindaci"
+            android:label="@string/title_activity_sindaci"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.electionup2.Liste"
+            android:label="@string/title_activity_liste" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.Consiglieri"
+            android:label="@string/title_activity_consiglieri" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.SindaciReal"
+            android:configChanges="orientation"
+            android:label="title_activity_sindaci_real"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.ListeReal"
+            android:configChanges="orientation"
+            android:label="title_activity_liste_real"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.ConsiglieriReal"
+            android:configChanges="orientation"
+            android:label="title_activity_consiglieri_real"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.ConsiglieriReal2"
+            android:label="title_activity_consiglieri_real2"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.preVotazione"
+            android:label="title_activity_preVotazione" >
+        </activity>
+        <activity
+            android:name="com.example.electionup2.DatiProvvisori"
+            android:label="title_activity_dati_provvisori" >
+        </activity>
+                <activity
+            android:name="com.example.electionup2.DatiProvvListe"
+            android:label="title_activity_datiprovvliste">
+        </activity>
+        <activity
+            android:name="com.example.electionup2.DatiProvvConsiglieri"
+            android:label="title_activity_datiprovvconsiglieri">
+        </activity>
+        <activity
+            android:name="com.example.electionup2.DatiProvvSindaci"
+            android:label="title_activity_datiprovvsindaci">
+        </activity>
+    </application>
+
+</manifest>

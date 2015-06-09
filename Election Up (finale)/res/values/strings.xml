@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">ElectionUp</string>
+    <string name="benvenuti">Benvenuto in ElectionUp!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="lightblue">#99CCFF</color>
+
+    <string name="etichetta_user">Nome Utente</string>
+    <string name="etichetta_psw">Password</string>
+    <string name="suggerimentouser">Inserisci qui l\'username</string>
+    <string name="suggerimentopsw">Inserisci qui la password</string>
+    <string name="Accedi">Accedi</string>
+    <string name="title_activity_home">Home</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="scegliopzione">Scegli un\'opzione</string>
+    <string name="InviaVoti">Invia voti (report)</string>
+    <string name="VisualizzaRisultati">Risultati</string>
+    <string name="title_activity_risultati">Risultati</string>
+    <string name="title_activity_assegna_voto">AssegnaVoto</string>
+    <string name="etichetta_logout">Logout</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#FBCD0F</color>
+    <color name="black">#000000</color>
+    
+    
+
+    <string name="numerovotanti">Inserisci i dati della sezione</string>
+    <string name="title_activity_votanti">Votanti</string>
+    <string name="Votanti">Inserisci dati sezione</string>
+    <string name="Diritto"># aventi diritto</string>
+    <string name="etichetta_Conferma"> Conferma</string>
+    <string name="elencoliste">Elenco liste</string>
+    <string name="elencocand">Elenco Candidati</string>
+    <string name="candidatogenerico">Candidato</string>
+    <string name="title_activity_sindaci">Presidenti</string>
+    <string name="title_activity_liste">Liste</string>
+    <string name="title_activity_consiglieri">Consiglieri</string>
+    <string name="Sindaco">Presidente</string>
+    <string name="Consiglieri">Consiglieri</string>
+    <string name="Liste">Liste</string>
+    <string name="title_activity_prova">Prova</string>
+    <string name="prova">sdfvjfvkjafdvfvjhfdvkjshfdvkjhsdfkjvhygf</string>
+    <string name="etichetta_Annulla">Annulla</string>
+    <color name="red">#F00</color>
+    <color name="green">#FF00AA00</color>
+    <string name="chiudiapp">Esci</string>
+    <string name="etichetta_Indietro">Indietro</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="NumVotantiUomini"># votanti (effettivi) uomini</string>
+    <string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="NumVotantiDonne"># votanti (effettivi) donne</string>
+    <string name="AventiDiritto"># aventi diritto totali</string>
+    <string name="DirittoDonne"># aventi diritto donne</string>
+    <string name="DirittoUomini"># aventi diritto uomini</string>
+    <string name="NumVotanti"># votanti (effettivi) totali</string>
+    <string name="DatoAssente">Dato Assente</string>
+    <string name="NotaInserisciVotanti">N.B. Di seguito sono mostrati 6 campi da compilare con i dati della sezione. Alcuni di essi potrebbero gia\' essere presenti e possono essere modificati nel caso non siano corretti.</string>
+    <string name="descrImage">IconaAppSullaMain</string>
+    <string name="datiSezioneButton">" Dati sezione "</string>
+    <string name="confermadati">"Conferma i dati prima di cambiare schermata!"</string>
+
+</resources>

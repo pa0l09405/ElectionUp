@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   		xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/green"
+    android:onClick="onClick"
+    android:text="@string/etichetta_Conferma"
+    android:textColor="@color/white" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/red"
+    android:onClick="onClickIndietro"
+    android:text="@string/etichetta_Indietro"
+    android:textColor="@color/white"
+    tools:ignore="RtlHardcoded" />
+
+<ScrollView
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/button1">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/fhd">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Votanti"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimensioneOpzioni" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="@string/AventiDiritto"
+        android:inputType="numberSigned"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="RtlHardcoded" />
+        
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText1"
+            android:ems="10"
+            android:hint="@string/DirittoDonne"
+            android:textColor="@color/white"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/white" />
+        
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:ems="10"
+            android:hint="@string/DirittoUomini"
+            android:textColor="@color/white"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/white" />
+        
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText3"
+            android:ems="10"
+            android:hint="@string/NumVotanti"
+            android:textColor="@color/white"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/white" />
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText4"
+            android:ems="10"
+            android:hint="@string/NumVotantiDonne"
+            android:textColor="@color/white"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/white" />
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText5"
+            android:ems="10"
+            android:hint="@string/NumVotantiUomini"
+            android:textColor="@color/white"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/white" />
+
+        <requestFocus />
+   
+</RelativeLayout>
+     
+</ScrollView>
+
+</RelativeLayout>

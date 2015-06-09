@@ -1,0 +1,176 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   		xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/green"
+    android:onClick="onClick"
+    android:text="@string/etichetta_Conferma"
+    android:textColor="@color/white" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/red"
+    android:onClick="onClickIndietro"
+    android:text="@string/etichetta_Indietro"
+    android:textColor="@color/white"
+    tools:ignore="RtlHardcoded" />
+
+<ScrollView
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/button1">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:background="@drawable/fhd">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Votanti"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimensioneOpzioni" />
+    
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/interlinea"
+        android:text="@string/NotaInserisciVotanti"
+        android:textColor="@color/white" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/AventiDiritto"
+        android:textColor="@color/white"
+        android:textSize="@dimen/DatiSezione" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/DatoAssente"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="RtlHardcoded" />
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DirittoDonne"
+        android:textColor="@color/white"
+        android:textSize="@dimen/DatiSezione" />
+        
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/DatoAssente"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:textColorHint="@color/white" />
+        
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DirittoUomini"
+        android:textColor="@color/white"
+        android:textSize="@dimen/DatiSezione" />
+        
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/DatoAssente"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:textColorHint="@color/white" />
+        
+         <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NumVotanti"
+        android:textColor="@color/white"
+        android:textSize="@dimen/DatiSezione" />
+         
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText3"
+            android:ems="10"
+            android:hint="@string/DatoAssente"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:textColorHint="@color/white" />
+        
+         <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NumVotantiDonne"
+        android:textColor="@color/white"
+        android:textSize="@dimen/DatiSezione" />
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText4"
+            android:ems="10"
+            android:hint="@string/DatoAssente"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:textColorHint="@color/white" />
+        
+         <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NumVotantiUomini"
+        android:textColor="@color/white"
+        android:textSize="@dimen/DatiSezione" />
+         
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText5"
+            android:ems="10"
+            android:hint="@string/DatoAssente"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:textColorHint="@color/white" />
+
+        <requestFocus />
+   
+</LinearLayout>
+     
+</ScrollView>
+
+</RelativeLayout>

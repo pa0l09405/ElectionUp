@@ -1,0 +1,36 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="1212dp"
+        android:background="@drawable/fhd"
+        tools:context="${relativePackage}.${activityClass}" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="212dp"
+            android:background="@color/green"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickSalva"
+            android:text="Salva ed esci"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="Vota sindaco:"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimensionecredenziali"
+            android:textStyle="bold|italic" />
+    </TableLayout>
+
+</ScrollView>
